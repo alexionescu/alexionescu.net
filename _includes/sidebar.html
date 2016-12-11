@@ -1,0 +1,49 @@
+<!-- Use icons from fontawesome when you are adding new item in the contact list  -->             
+
+                 
+     <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
+                <h1 class="name">{% if site.name %}{{site.name}}{% endif %}</h1>
+                <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% endif %}</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                   
+                   {% if site.email %}
+                    <li class="email"><i class="fa fa-envelope"></i><a href="http://www.google.com/recaptcha/mailhide/d?k=01XYR1hYkSJrYRHqPoT3dbYw==&amp;c=m3RbwPz9CObYYS4c_PiCIrQIoU18vyrG9_vv2t8OTMs=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01XYR1hYkSJrYRHqPoT3dbYw\x3d\x3d\x26c\x3dm3RbwPz9CObYYS4c_PiCIrQIoU18vyrG9_vv2t8OTMs\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">i...</a>@alexionescu.net</li>
+                    {% endif %}
+                    
+                    {% if site.phone %}
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+                    {% endif %}
+                    
+                    {% if site.website %}
+                    <li class="website"><i class="fa fa-globe"></i><a href="https://{{site.website}}" target="_blank">{{site.website}}</a></li>
+                    {% endif %}
+                    
+                    {% if site.linkedin %}
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/{{site.linkedin}}" target="_blank">{{site.linkedin}}</a></li>
+                    {% endif %}
+                    
+                    {% if site.github %}
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/{{site.github}}" target="_blank">{{site.github}}</a></li>
+                    {% endif %}
+
+                    {% if site.github %}
+                    <li class="bitbucket"><i class="fa fa-bitbucket"></i><a href="https://bitbucket.com/{{site.bitbucket}}" target="_blank">{{site.bitbucket}}</a></li>
+                    {% endif %}
+                    
+                    {% if site.twitter %}
+                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
+                    {% endif %}
+                    
+                </ul>
+            </div><!--//contact-container-->
+           {% include education.html %}
+           {% include language.html %}
+           {% include interests.html %}
+        
+            
+        </div><!--//sidebar-wrapper-->

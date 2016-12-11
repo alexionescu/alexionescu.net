@@ -1,0 +1,22 @@
+
+title: Alex Ionescu
+url: 'https://alexionescu.net'
+baseurl: '' #change it according to your repository name
+
+
+style: styles-3
+
+
+#Profile information
+name: Alex Ionescu
+tagline: Security Engineer
+pic: profile.jpg
+
+#sidebar links
+email: info@alexionescu.net
+#phone: 
+website: alexionescu.net
+linkedin: ionescualex
+github: alexionescu
+bitbucket: alexionescu
+#twitter: ''

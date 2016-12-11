@@ -1,0 +1,23 @@
+image: ruby:2.3
+
+pages:
+  stage: deploy
+  script:
+  - gem install jekyll
+  - jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+    - master
+
+pages-dev:
+  stage: test
+  script:
+  - gem install jekyll
+  - jekyll build -d public-dev
+  artifacts:
+    paths:
+    - public-dev
+  except:
+    - master
