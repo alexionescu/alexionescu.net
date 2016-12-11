@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/alexionescu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alexionescu.net
+  * I am alexionescu (https://keybase.io/alexionescu) on keybase.
+  * I have a public key with fingerprint 0D67 3F95 A6E0 2390 0A46  74C3 24D3 83E7 7025 E6F5
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01019079e39d556b92af9138afcfb326e8e5fc8968195bc81f94f390a7329a69ca140a",
+            "fingerprint": "0d673f95a6e023900a4674c324d383e77025e6f5",
+            "host": "keybase.io",
+            "key_id": "24d383e77025e6f5",
+            "kid": "01019079e39d556b92af9138afcfb326e8e5fc8968195bc81f94f390a7329a69ca140a",
+            "uid": "576080587c3b3ab2964557877e65ca19",
+            "username": "alexionescu"
+        },
+        "service": {
+            "hostname": "alexionescu.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458774935,
+    "expire_in": 157680000,
+    "prev": "a11ce05611c995e7266808db0023f516b0e1474a2ad8249748a9135a501b2048",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkltsTEEYx3d1u9hE9EGoVEiOSzTZ1pzLzDmzFSWo0AfaRWnarjnnzFlHt+es
+3dNbqhI8aEVjNUIiQTURJG5BhARJtaFql2hEX0SIROL+4BKirDkNTzyaly8z3+/7
+z//7ZlKTcjwBLw1/H9w3pzLsvfdK9az/OPtYG6faeisXauPq6VigMZ0mnUi9qXMh
+DvCAx0DGVMQ6hEjFAjEwLyrE0AxVFBBVKDQ0BSOFx1DVFN7AkiFiQGRRwARhjfAS
+IFyQM0wrShPxhGk5rqyOZNHAkCAKBIYDIiFZ0kRB0kVFpLIMBEiRAVnhZjvpVjBz
+KknSYtNmZ2wTGbP3D/4/+24ck4MyAgqAiqyJqkhUASMJQlmRZYogQ7ELJmnCIg2U
+0SRGW0zbokmtkWsPcizRZGrUna3bzN9QsUUdphBP2I6t2TGW3Ow48WTILXZa4y7d
+TNXIb52Ialo6myaraKKJJNPgQjwjNcd0hXmJ2ZQlLMIgR1viZoJGTJdgLSiALfce
+2uQaqON5jQKIWMAYUllAjFB0FbAnMSCPVEB5SZaIQHRFkLAsKYSNEBIIeFUAksK5
+rW21bC6kMJ8kyjSTZtQiTmOCcu2BTu8Mn8cb8Phzx7n/zBOYmPfn802sHz86+RaN
+oo8dK+cFBz6XHx7Ylua7pz+97s88a8gOdRTN2/7kzfYN+7cuz33lV84eaL+mnZ9a
+oM08+PBeflfbod3Hrl3Yi3oeCNe/3R8tJSsaNFBSMbgUV9izL5EbOzLva8MvaoZS
+w4fHPfeFHt2ePjpScnHT5boj4e5lc2NF1T9zFvXMLzyaP765aH5f9aS7a+9MWfuW
+nvPmzeo7/jgt5UxbV75oMllcJ/Z/uvIuc3JJqRU8UbDz04SbZ7IjH8LPSnPLsv3p
+IwWH8n4sTK1etvr0YPprpVE2tfOUvGdBb8pbKZ5cc/V1bQ3/0ietKux1ukL+LV8y
+Pbt8tfuq9OCwf2PV3Ozp6l8=
+=wi4T
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alexionescu
+
+==================================================================
+

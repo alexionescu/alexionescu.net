@@ -6,6 +6,7 @@ baseurl: '' #change it according to your repository name
 
 style: styles-3
 
+include: [".well-known"]
 
 #Profile information
 name: Alex Ionescu
