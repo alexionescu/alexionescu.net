@@ -38,7 +38,11 @@
                     {% if site.gitlab %}
                     <li class="gitlab"><i class="fa fa-gitlab"></i><a href="https://gitlab.com/{{site.gitlab}}" target="_blank">{{site.gitlab}}</a></li>
                     {% endif %}
-                   
+
+                   {% if site.keybase %}
+                    <li class="keybase"><i class="fa fa-key"></i><a href="https://keybase.io/{{site.gitlab}}" target="_blank">{{site.keybase}}</a></li>
+                    {% endif %}
+
                     {% if site.twitter %}
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
                     {% endif %}
