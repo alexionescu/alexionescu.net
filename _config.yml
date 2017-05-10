@@ -4,7 +4,7 @@ url: 'https://alexionescu.net'
 baseurl: '' #change it according to your repository name
 
 
-style: styles-3
+style: styles
 
 include: [".well-known"]
 
@@ -23,3 +23,8 @@ bitbucket: alexionescu
 gitlab: alexionescu
 keybase: alexionescu
 #twitter: ''
+
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
